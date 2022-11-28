@@ -1,0 +1,130 @@
+:root{
+    --colorTextos: #ffffff;
+}
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.form{
+    width:100%;
+    margin: auto;
+ }
+body {
+    font-family: 'Amatic SC', cursive;
+    background-image: url(
+        /img/thumb-1920-1087471.png );
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cuprum', sans-serif;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-principal{
+    text-align: center;
+    font-weight: 700;
+    border: 40px;
+    padding: 40px;
+    border-radius: 10px;
+    justify-items: center;
+    color:floralwhite ;
+ }
+ p{
+    color: antiquewhite;
+    font-family: 'Cinzel', serif;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+
+ }
+
+ .grupo{
+    display: inline-block;
+ }
+h2{
+    justify-content: space-around;
+    background-image: url(./img/thumb-1920-1087471.png);
+    padding: 40px;
+    background-size: auto;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border: 500px;
+    margin: 10px;
+}
+h3{
+    color: antiquewhite;
+    font-family: 'Cinzel', serif;
+    justify-content: left;
+    text-align: left;
+    padding: 10px;
+
+
+}
+    
+ input{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    background: none;
+    box-shadow: 0 0 6px 0 rgb(146, 106, 202);
+    border: none;
+ }
+
+ input:focus{
+    outline: none;
+    color: antiquewhite;
+
+}
+
+label{
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    color: #ffe2e267 ;
+    display: inline-block;
+ }
+
+select{
+    color:antiquewhite;
+    font-family: 'Cinzel', serif;
+    justify-content: center;
+    text-align: left;
+    font-weight: 900;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #765cd7b1;
+    border: none;
+    
+
+}
+button{
+    color: rgb(240, 233, 233);
+    font-family: 'Cinzel', serif;
+    justify-content: center;
+    text-align: left;
+    font-weight: 700;
+    padding: 10px;
+    background: none;
+    box-shadow: 0 0 6px 0 rgb(146, 106, 202);
+    border: none;
+}
+
+nav{
+    color: rgb(240, 233, 233);
+    font-family: 'Cinzel', serif;
+    justify-content: center;
+    text-align: left;
+    font-weight: 700;
+    padding: 10px;
+    background: none;
+    box-shadow: 0 0 6px 0 rgb(146, 106, 202);
+    border: none;
+}
